@@ -1,0 +1,109 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Spie Pix</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+        <li>
+          <form id="search-form">
+            <input type="search" id="search-input" placeholder="Search...">
+            <button id="search-btn">Search</button>
+          </form>
+        </li>
+        <ul>
+          <li><button class="register-btn">Register</button></li>
+          <li><button class="upload-music-btn">Upload Music</button></li>
+        </ul>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <!-- your HTML code here... -->
+    <div class="registration-form" style="display: none;">
+      <h2>Register</h2>
+      <form id="registration-form">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username"><br><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email"><br><br>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password"><br><br>
+        <label for="confirm-password">Confirm Password:</label>
+        <input type="password" id="confirm-password" name="confirm-password"><br><br>
+        <input type="submit" value="Register">
+      </form>
+    </div>
+    <div class="music-upload-form" style="display: none;">
+      <h2>Upload Music</h2>
+      <form id="music-upload-form">
+        <input type="file" id="music-files" multiple>
+        <label for="cover-art">Cover Art:</label>
+        <input type="file" id="cover-art" accept="image/*">
+        <input type="submit" value="Upload Music">
+      </form>
+    </div>
+    <p id="js-verification"></p>
+    <div id="search-results"></div>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
+<head>
+    <main>
+        <section id="podcast">
+            <h2>SPIE PIX MEDIA</h2>
+            <p>Listen to our latest episodes below Tsola Boy EP1</p>
+            <ul>
+                <li>
+                    <h3>Episode 1: Introduction</h3>
+                    <p>Join us as we introduce our podcast and discuss what to expect in future episodes.</p>
+                    <audio controls>
+                        <source src="episode 1.mp3" type="audio/mp3">Your browser does not support the audio element.
+                    </audio>
+                    <a href="episode 1.mp3" download="download episode 1">Download Episode 1</a>
+                </li>
+                <li>
+                    <h3>Episode 2: Topic 1</h3>
+                    <p>In this episode, we discuss Topic 1 and its relevance to our audience.</p>
+                    <audio controls>
+                        <source src="episode 2.mp3" type="audio/mp3">Your browser does not support the audio element.
+                    </audio>
+                    <a href="episode 2.mp3" download="download episode 2">Download Episode 2</a>
+                </li>
+            </ul>
+        </section>
+        <section id="downloads">
+            <h2>Downloads</h2>
+            <p>Download our latest music and pictures!</p>
+            <h3>Music Downloads</h3>
+            <ul>
+                <li><a href="music/episode 1.mp3" download>Episode 1: Introduction</a></li>
+                <li><a href="music/episode 2.mp3" download>Episode 2: Topic 1</a></li>
+            </ul>
+            <h3>Picture Downloads</h3>
+            <ul>
+                <li><a href="images/picture 1.jpg" download>Picture 1</a></li>
+                <li><a href="images/picture 2.jpg" download>Picture 2</a></li>
+            </div>
+        </main>
+        <footer>
+            <div class="contact-info">
+                <h4>Contact Us</h4>
+                <p>Mangochi Wa Chiyao</p>
+                <p>Phone: +265887870476 / +27820503164</p>
+                <p>Email: <a href="mailto:mkomerafrancis27@gmail.com">mkomerafrancis27@gmail.com</a></p>
+            </div>
+            <div class="nav-links">
+                <h4>Navigation</h4>
+                <ul>
+                    <li><a href="#">About Us</
