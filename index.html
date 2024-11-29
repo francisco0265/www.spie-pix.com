@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Spie Pix</title>
+<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+<header>
+<nav>
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="#">About</a></li>
+<li><a href="#">Contact</a></li>
+<li>
+<ul>
+<li><a href="#" class="register-btn">Register</a></li>
+<li><a href="#" class="upload-music-btn">Upload Music</a></li>
+</ul>
+</li>
+</ul>
+</nav>
+<div class="social-media-links">
+<a href="#" target="_blank"><img src="facebook-logo.png" alt="Facebook"></a>
+<a href="#" target="_blank"><img src="youtube-logo.png" alt="YouTube"></a>
+<a href="#" target="_blank"><img src="tiktok-logo.png" alt="TikTok"></a>
+<a href="#" target="_blank"><img src="whatsapp-logo.png" alt="WhatsApp"></a>
+</div>
+</header>
+<main>
+<section id="search-bar">
+<h2>Search</h2>
+<form>
+<input type="search" placeholder="Search music, videos, or artists">
+<button type="submit">Search</button>
+</form>
+</section>
+<section id="podcast">
+<h2>SPIE PIX MEDIA</h2>
+<p>Listen to our latest episodes below Tsola Boy EP1</p>
+<ul>
+<li>
+<h3>Episode 1: Introduction</h3>
+<p>Join us as we introduce our podcast and discuss what to expect in future episodes.</p>
+<audio controls>
+<source src="episode 1.mp3" type="audio/mp3">Your browser does not support the audio element.
+</audio>
+<a href="episode 1.mp3" download="download episode 1">Download Episode 1</a>
+</li>
+<li>
+<h3>Episode 2: Topic 1</h3>
+<p>In this episode, we discuss Topic 1 and its relevance to our audience.</p>
+<audio controls>
+<source src="episode 2.mp3" type="audio/mp3">Your browser does not support the audio element.
+</audio>
+<a href="episode 2.mp3" download="download episode 2">Download Episode 2</a>
+</li>
+</ul>
+</section>
+<section id="music-upload">
+<h2>Upload Music</h2>
+<form id="music-upload-form">
+<input type="file" id="cover-picture" name="cover-picture" accept="image/*">
+<img id="cover-picture-preview" src="" alt="cover picture">
+<input type="file" id="music-files" multiple>
+<input type="submit" value="Upload Music">
+</form>
+</section>
+<section id="video-upload">
+<h2>Upload Video</h2>
+<form id="video-upload-form">
+<input type="file" id="video-files" multiple>
+<input type="submit" value="Upload Video">
+</form>
+</section>
+<section id="registration">
+<h2>Register</h2>
+<form id="registration-form">
+<label for="username">Username:</label>
+<input type="text" id="username" name="username">
+<label for="email">Email:</label>
+<input type="email" id="email" name="email">
+<label for="password">Password:</label>
+<input type="password" id="password" name="password">
+<label for="confirm-password">Confirm Password:</label>
+<input type="password" id="confirm-password" name="confirm-password">
+<input type="submit" value="Register">
+</form>
+</section>
+</main>
+<script src="script.js"></script>
+</body>
+</html>
